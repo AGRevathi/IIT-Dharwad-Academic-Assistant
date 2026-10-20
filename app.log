@@ -1,0 +1,84 @@
+2026-10-17 21:33:14,368 INFO iitd_academic_assistant.rag: Retrieval category=rules; passages=20; source_pages=['PhD Rulebook _Rulebook_27Jul25 (1)_0.pdf:3', 'Rules and regulations.pdf:10', 'Rules and regulations.pdf:11', 'Rules and regulations.pdf:14', 'Rules and regulations.pdf:4', 'UG_Rulebook.pdf:10', 'UG_Rulebook.pdf:13', 'UG_Rulebook.pdf:17', 'UG_Rulebook.pdf:18', 'UG_Rulebook.pdf:19', 'UG_Rulebook.pdf:20', 'UG_Rulebook.pdf:21', 'UG_Rulebook.pdf:24', 'UG_Rulebook.pdf:30', 'UG_Rulebook.pdf:4']
+2026-10-17 21:33:14,508 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=4163; passages_sent=6
+2026-10-17 21:33:17,621 WARNING iitd_academic_assistant.rag: Discarding response because citations were missing or invalid; ids=[]
+2026-10-17 21:33:17,623 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['UG_Rulebook.pdf:10', 'UG_Rulebook.pdf:10', 'UG_Rulebook.pdf:13', 'UG_Rulebook.pdf:4', 'PhD Rulebook _Rulebook_27Jul25 (1)_0.pdf:3', 'Rules and regulations.pdf:4']
+2026-10-17 21:36:40,843 INFO iitd_academic_assistant.rag: Retrieval category=None; passages=20; source_pages=['BTECH SYllabus.pdf:1', 'UG_Rulebook.pdf:5']
+2026-10-17 21:36:40,905 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3240; passages_sent=6
+2026-10-17 21:36:43,051 WARNING iitd_academic_assistant.rag: Discarding response because citations were missing or invalid; ids=[]
+2026-10-17 21:36:43,052 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['BTECH SYllabus.pdf:1', 'BTECH SYllabus.pdf:1', 'BTECH SYllabus.pdf:1', 'BTECH SYllabus.pdf:1', 'BTECH SYllabus.pdf:1', 'BTECH SYllabus.pdf:1']
+2026-10-17 21:46:40,506 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 21:46:40,767 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-17 21:46:43,648 WARNING iitd_academic_assistant.rag: Discarding response because citations were missing or invalid; ids=[]
+2026-10-17 21:46:43,655 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 21:48:45,288 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 21:48:45,304 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-17 21:48:47,662 WARNING iitd_academic_assistant.rag: Discarding response because citations were missing or invalid; ids=[]
+2026-10-17 21:48:47,662 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 22:11:11,260 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 22:11:11,311 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-17 22:11:13,551 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-17 22:11:14,831 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-17 22:11:14,832 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 22:17:26,686 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 22:17:26,748 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-17 22:17:28,953 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-17 22:17:30,493 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-17 22:17:30,494 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-17 22:24:22,740 INFO iitd_academic_assistant.rag: Retrieval category=rules; passages=20; source_pages=['Rules and regulations.pdf:10', 'UG_Rulebook.pdf:12', 'UG_Rulebook.pdf:13', 'UG_Rulebook.pdf:16', 'UG_Rulebook.pdf:17', 'UG_Rulebook.pdf:18', 'UG_Rulebook.pdf:19', 'UG_Rulebook.pdf:28', 'UG_Rulebook.pdf:4', 'UG_Rulebook.pdf:7']
+2026-10-17 22:24:22,881 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=7116; passages_sent=10
+2026-10-17 22:24:25,045 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-17 22:24:26,740 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-17 22:24:26,741 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['UG_Rulebook.pdf:12', 'UG_Rulebook.pdf:12', 'UG_Rulebook.pdf:17', 'UG_Rulebook.pdf:17', 'UG_Rulebook.pdf:16', 'UG_Rulebook.pdf:16', 'UG_Rulebook.pdf:28', 'UG_Rulebook.pdf:28', 'UG_Rulebook.pdf:7', 'UG_Rulebook.pdf:7']
+2026-10-17 22:25:08,074 INFO iitd_academic_assistant.rag: Retrieval category=programs; passages=21; source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'General Instructions _ Existing Students fee (Autumn 2026-27).pdf:1', 'General Instructions _ Existing Students fee (Autumn 2026-27).pdf:2', 'Mid Semester Autumn 2026-27_11.pdf:1', 'Mid Semester Autumn 2026-27_11.pdf:2', 'Mid Semester Autumn 2026-27_11.pdf:3', 'Mid Semester Autumn 2026-27_11.pdf:4', 'Mtech courses offered and syllabus.pdf:29', 'Timetable for Autumn 2026-27_V8 (5).pdf:30', 'Timetable for Autumn 2026-27_V8 (5).pdf:31', 'Timetable for Autumn 2026-27_V8 (5).pdf:33']
+2026-10-17 22:25:08,087 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=7266; passages_sent=10
+2026-10-17 22:25:34,926 INFO iitd_academic_assistant.rag: Retrieval category=schedules; passages=21; source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Mid Semester Autumn 2026-27_11.pdf:1', 'Mid Semester Autumn 2026-27_11.pdf:2', 'Mid Semester Autumn 2026-27_11.pdf:3', 'Mid Semester Autumn 2026-27_11.pdf:4', 'Mid Semester Autumn 2026-27_11.pdf:5', 'Mid Semester Autumn 2026-27_11.pdf:6', 'Mid Semester Autumn 2026-27_11.pdf:7', 'Mid Semester Autumn 2026-27_11.pdf:8', 'Mid Semester Autumn 2026-27_11.pdf:9', 'Timetable for Autumn 2026-27_V8 (5).pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:3']
+2026-10-17 22:25:34,962 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=6938; passages_sent=10
+2026-10-17 22:25:37,413 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-17 22:25:38,930 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-17 22:25:38,932 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Mid Semester Autumn 2026-27_11.pdf:1', 'Mid Semester Autumn 2026-27_11.pdf:1', 'Mid Semester Autumn 2026-27_11.pdf:2', 'Mid Semester Autumn 2026-27_11.pdf:2', 'Mid Semester Autumn 2026-27_11.pdf:3', 'Mid Semester Autumn 2026-27_11.pdf:3', 'Mid Semester Autumn 2026-27_11.pdf:4', 'Mid Semester Autumn 2026-27_11.pdf:4']
+2026-10-17 22:26:06,398 INFO iitd_academic_assistant.rag: Retrieval category=schedules; passages=8; source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'OM_Holiday_CY 2026.pdf:3', 'Timetable for Autumn 2026-27_V8 (5).pdf:2']
+2026-10-17 22:26:06,411 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3112; passages_sent=5
+2026-10-17 22:26:07,626 WARNING iitd_academic_assistant.rag: Groq returned the configured fallback despite retrieved context; pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'OM_Holiday_CY 2026.pdf:3', 'Timetable for Autumn 2026-27_V8 (5).pdf:2']
+2026-10-17 22:26:07,627 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:2', 'OM_Holiday_CY 2026.pdf:3', 'OM_Holiday_CY 2026.pdf:3']
+2026-10-17 22:26:55,253 INFO iitd_academic_assistant.rag: Retrieval category=schedules; passages=25; source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:19', 'Timetable for Autumn 2026-27_V8 (5).pdf:21', 'Timetable for Autumn 2026-27_V8 (5).pdf:23']
+2026-10-17 22:26:55,268 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=6643; passages_sent=10
+2026-10-17 22:26:56,601 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-17 22:26:57,653 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-17 22:26:57,654 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:23', 'Timetable for Autumn 2026-27_V8 (5).pdf:21', 'Timetable for Autumn 2026-27_V8 (5).pdf:21', 'Timetable for Autumn 2026-27_V8 (5).pdf:19', 'Timetable for Autumn 2026-27_V8 (5).pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:23', 'Timetable for Autumn 2026-27_V8 (5).pdf:19']
+2026-10-19 18:59:13,253 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 18:59:13,434 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 18:59:15,695 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 18:59:17,190 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-19 18:59:17,202 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 18:59:37,354 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 18:59:37,380 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 18:59:39,621 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 18:59:41,783 INFO iitd_academic_assistant.rag: Citation repair succeeded with source IDs=['S1', 'S1', 'S1', 'S1', 'S1', 'S1', 'S1', 'S1']
+2026-10-19 19:02:03,594 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:02:03,641 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 19:02:07,134 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 19:02:08,528 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-19 19:02:08,532 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:08:47,641 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:08:47,738 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 19:08:50,139 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 19:08:52,645 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-19 19:08:52,647 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:09:43,346 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:09:43,378 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 19:09:45,663 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 19:09:48,273 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-19 19:09:48,274 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:10:08,195 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:10:08,216 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 19:10:10,341 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 19:10:11,730 WARNING iitd_academic_assistant.rag: Citation repair did not return valid source IDs; ids=[]
+2026-10-19 19:10:11,734 WARNING iitd_academic_assistant: Assistant returned fallback; retrieved_source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:10:38,906 INFO iitd_academic_assistant.rag: Retrieval category=fees; passages=1; source_pages=['M.Tech_fee structure.pdf:1']
+2026-10-19 19:10:38,942 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=3379; passages_sent=1
+2026-10-19 19:10:42,269 WARNING iitd_academic_assistant.rag: Response lacked valid source IDs (ids=[]); asking Groq once to repair citations
+2026-10-19 19:10:43,516 INFO iitd_academic_assistant.rag: Citation repair succeeded with source IDs=['S1', 'S1']
+2026-10-20 20:00:40,564 INFO iitd_academic_assistant.rag: Retrieval category=schedules; passages=18; source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:16', 'Timetable for Autumn 2026-27_V8 (5).pdf:2', 'Timetable for Autumn 2026-27_V8 (5).pdf:21', 'Timetable for Autumn 2026-27_V8 (5).pdf:23']
+2026-10-20 20:00:40,564 INFO iitd_academic_assistant.rag: Retrieval category=schedules; passages=18; source_pages=['AcademicCalendar Autumn 2026-27.docx_0.pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:1', 'Timetable for Autumn 2026-27_V8 (5).pdf:16', 'Timetable for Autumn 2026-27_V8 (5).pdf:2', 'Timetable for Autumn 2026-27_V8 (5).pdf:21', 'Timetable for Autumn 2026-27_V8 (5).pdf:23']
+2026-10-20 20:00:40,730 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=4450; passages_sent=8
+2026-10-20 20:00:40,730 INFO iitd_academic_assistant.rag: Calling Groq model=openai/gpt-oss-120b; context_chars=4450; passages_sent=8
